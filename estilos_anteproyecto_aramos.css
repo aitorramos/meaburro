@@ -1,0 +1,102 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+body {
+    background-color: light;
+}
+
+/* correspondiente a cabecera */
+#head {
+    margin: 30px auto;
+    width: 100%;
+    text-align: center;
+    background-color: aquamarine;
+
+}
+
+#head>h1 {
+    color: gray;
+}
+
+#head>h3 {
+    color: gray;
+}
+
+/* correspondiente al menú */
+#menu {
+    width: 80%;
+    text-align: center;
+    /* border: 1px solid black; */
+    height: 100px;
+}
+
+#menu>div {
+    text-align: center;
+    float: left;
+    width: 15.92%;
+    /* border-radius: 2px; */
+    color: white;
+    padding: 4px;
+    height: 100px;
+    transition: 0.8s;
+}
+
+h4 {
+    transition: 0.8s;
+}
+
+img {
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 10px auto;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+#home {
+    background-color: red;
+}
+
+#galeria {
+    background-color: orangered;
+}
+
+#google {
+
+    background-color: orange;
+
+}
+
+#apple {
+    background-color: cyan;
+}
+
+#html {
+    background-color: blue;
+}
+
+
+#correo {
+    background-color: darkblue;
+}
+
+#menu>div:hover {
+    height: 150px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+nav>div:hover img {
+    padding: 10px;
+    /* background-color: 20px rgba(255, 255, 255, 0.5); */
+    transition: 1s;
+    /* box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.1); */
+
+}
+
+nav>div:hover h4 {
+    padding: 50px;
+    transition: 0.8s;
+}
